@@ -1,0 +1,210 @@
+html{
+    /*font-size: 62.5%;*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+.BARRA_I{
+    background-color: rgb(12, 12, 70);
+}
+.menu0{
+    color: white;
+}
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.menu {
+    display: flex;
+    gap: 3rem;
+}
+.menu li {
+    color: white;
+    list-style: none;
+}
+.tellor{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.banner {
+    background-image: url(fond1.png);
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+}
+.main-content {
+    background-color: rgb(8, 4, 43);
+}
+.datos {
+    text-align: center;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+    
+}
+button{
+    background-color: rgb(13, 43, 99);
+    color:white;
+    padding: 10px;
+    margin: 10px;
+    border:none;
+    border-radius: 5px;
+
+}
+.baner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.dat2{
+    position:static;
+}
+.T-grande {
+    width: 50%;
+    text-align: left;
+    font-size: 24px;
+}
+
+p{
+    color: white;
+}
+  
+.T-pequenos {
+    width: 50%;
+    text-align: right;
+    font-size: 16px;
+}
+
+.enunciado {
+    text-align: center;
+}
+.enunciado h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+  
+.descripcion {
+    font-size: 10px;
+    font-weight: 30;
+    /*font-style: italic;*/
+}
+.container-products {
+    display: flex;
+    gap: 7rem;
+}
+.card-products {
+    background-color: rgb(7, 7, 51);
+    width: 270px;
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    cursor: pointer
+}
+.card-products h2{
+    color: white;
+}
+.card-products h3{
+    font-size: 10px;
+    font-weight: 30
+}
+.but3 {
+  text-align: center;
+}
+.imagen-centrada {
+    display: flex;
+    height: 25rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.imagen-centrada img {
+    width: 600px;
+    height: 300px;
+}
+  
+.imagen-centrada .contenidoimg {
+    position: absolute;
+  top: 425%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  color: white;
+}
+  
+.imagen-centrada h2 {
+
+    font-size: 24px;
+    font-weight: bold;
+}
+  
+.imagen-centrada p {
+    font-size: 15px;
+}
+  
+.imagen-centrada button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #040220;
+    padding: 20px;
+  }
+  
+  .barra3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .redes a {
+    margin-right: 10px;
+  }
+
+  
+  .formulario input {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .formulario button {
+    background-color: #0b3863;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+  }
+.barra3 h2{
+    color: white;
+}
